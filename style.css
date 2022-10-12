@@ -36,16 +36,28 @@ body{
 }
 
 #loginHeader2{
-    text-align: center;
-    text-justify: center;
-    align-self: center;
-    justify-self: center;
+    position: relative;
+    top: 80%;
     width: 30%;
+    height: 10%;
 }
 
 form{
     text-align: center;
     height: 20vh;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+form  input{
+    padding: 10px;
+    position: relative;
+    top: 40%;
+}
+
+form label{
+    position: relative;
+    top: 40%;
 }
 
 header{
@@ -60,6 +72,7 @@ header{
     background-color: white;
     grid-area: header;
     grid-template-areas: "sitename navbar navbar login";
+    text-transform: uppercase;
 }
 
 #sitename{
