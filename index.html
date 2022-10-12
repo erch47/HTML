@@ -5,68 +5,74 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trash website</title>
+        <link rel="stylesheet" href="/HTML/style.css">
     </head>
     
     <body>
-        <header>
-            <h1>Welcome to trash site</h1>
-            <a href="/login.html">Login</a>
-            <nav>
+        <div class="mainBody">
+            <header>
+                <h1 id="sitename">Welcome to my site</h1>
+                <a href="/HTML/login.html" id="login">Login</a>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="/HTML/index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <h2 id="mainHeader">Headline 2</h2>
+                <p id="subtext">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi alias id iste minus dolor, molestias nisi officia consectetur veritatis impedit quos repellat voluptas debitis asperiores maiores similique nam. Autem, temporibus?
+                </p>
+                <div id="articles">
+                    <article id="article1">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquam repudiandae impedit molestias labore facere et suscipit soluta? Labore neque dolore amet quasi corrupti excepturi. Cumque dignissimos excepturi dolorum laborum autem rem labore minima laudantium corporis eum. Tenetur, omnis nam laboriosam consequatur sequi, natus voluptatibus rem labore exercitationem aut quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim deleniti illum eos molestias, consequatur aperiam facilis velit, maxime accusantium doloremque fugit est asperiores quaerat animi nostrum culpa quo quas quibusdam adipisci? Voluptas odio explicabo nesciunt omnis, aut at, deleniti reiciendis, repellendus sint beatae adipisci tempora ut corporis placeat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam perferendis incidunt ducimus placeat nam soluta facere inventore assumenda consequatur, quaerat magnam. Voluptatem exercitationem animi quisquam, voluptates tempore fugiat aliquid molestias laborum ipsa voluptas rerum fugit soluta libero accusamus? Natus ex consectetur libero, quia adipisci voluptates eos earum enim eaque!
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, debitis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis voluptatum voluptas cum pariatur saepe amet perspiciatis ab, quia at exercitationem eveniet error nemo accusamus quos.
+                        </p>
+                        <!--<img src="/HTML/images/bowl-full-of-eggs.jpg" alt="">-->
+                    </article>
+                    <article id="article2">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ad.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore suscipit amet ad libero sunt ducimus excepturi, rem quia nulla consequatur obcaecati sed corporis, eligendi optio repellendus, eaque necessitatibus asperiores officiis? Aliquam, repudiandae! Harum, quidem? Quod explicabo laboriosam velit dolores aspernatur beatae, autem cumque porro similique quibusdam necessitatibus quia unde et. 
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolor optio tenetur nostrum laudantium incidunt ex ea debitis quod sequi maxime, ipsum, deserunt quibusdam? Deleniti.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <aside>
+                <h2>Some headline</h2>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li>Sweden</li>
+                    <ol>
+                        <li>Stockholm</li>
+                        <li>Gothenburg</li>
+                        <li>Växjö</li>
+                    </ol>
+                    <li>Denmark</li>
+                    <ol>
+                        <li>Copenhagen</li>
+                        <li>Aarhus</li>
+                        <li>Odense</li>
+                    </ol>
+                    <li>Norway</li>
+                    <ol>
+                        <li>Oslo</li>
+                        <li>Bergen</li>
+                        <li>Trondheim</li>
+                    </ol>
                 </ul>
-            </nav>
-        </header>
-        <section>
-            <h2>Headline 2</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi alias id iste minus dolor, molestias nisi officia consectetur veritatis impedit quos repellat voluptas debitis asperiores maiores similique nam. Autem, temporibus?
-            </p>
-            <article>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, expedita!
-                </p>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, debitis?
-                </p>
-                <img src="/images/bowl-full-of-eggs.jpg" alt="">
-            </article>
-            <article>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ad.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ratione.
-                </p>
-            </article>
-        </section>
-        <aside>
-            <h2>Some headline</h2>
-            <ul>
-                <li>Sweden</li>
-                <ol>
-                    <li>Stockholm</li>
-                    <li>Gothenburg</li>
-                    <li>Växjö</li>
-                </ol>
-                <li>Denmark</li>
-                <ol>
-                    <li>Copenhagen</li>
-                    <li>Aarhus</li>
-                    <li>Odense</li>
-                </ol>
-                <li>Norway</li>
-                <ol>
-                    <li>Oslo</li>
-                    <li>Bergen</li>
-                    <li>Trondheim</li>
-                </ol>
-            </ul>
-        </aside>
-        <footer>
-            <p>Copyright &copy; 2022, My Website</p>
-        </footer>
+            </aside>
+            <footer>
+                <p>Copyright &copy; 2022, My Website</p>
+            </footer>
+        </div>
     </body>
 </html>

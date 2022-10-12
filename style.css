@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1024px;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+.mainBody{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "section section aside"
+                         "footer footer footer";
+    grid-column-gap: 50px;    
+    grid-row-gap: 50px;
+    grid-template-rows: 80px 1fr 70px;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.loginBody{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header"
+                         "container"
+                         "footer";
+    grid-template-rows: 80px 1fr 70px;
+}
+
+.container{
+    grid-area: container;
+    display: grid;
+    grid-template-areas: "loginHeader2"
+                         "form";
+}
+
+#loginHeader2{
+    text-align: center;
+    text-justify: center;
+    align-self: center;
+    justify-self: center;
+    width: 30%;
+}
+
+form{
+    text-align: center;
+    height: 20vh;
+}
+
+header{
+    display: grid;
+    background-color: white;
+    grid-area: header;
+    grid-template-areas: "sitename navbar navbar login";
+}
+
+#loginHeader{
+    display: grid;
+    background-color: white;
+    grid-area: header;
+    grid-template-areas: "sitename navbar navbar login";
+}
+
+#sitename{
+    grid-area: sitename;
+    
+}
+
+#navbar{
+    grid-area: navbar;
+    align-self: center;
+}
+
+#login{
+    grid-area: login;
+    align-self: center;
+    justify-self: center
+}
+
+section{
+    grid-area: section;
+    background-color: grey; 
+    grid-row-gap: 10px;
+}
+
+#mainHeader{
+    margin-left: 20px;
+    grid-area: mainHeader;
+    color: white;
+}
+
+#subtext{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 300px;
+    margin-left: 20px;
+    padding-left: 10px;
+    grid-area: subtext;
+    color: #f4f4f4;
+    background-color: #555;
+}
+
+#articles{
+    display: grid;
+    grid-area: articles;
+    grid-template-areas: "article1 article2";
+    background-color: grey;
+    grid-column-gap: 10px; 
+    margin-bottom: 20px;
+}
+
+#article1{
+    grid-area: article1;
+    background-color: #f4f4f4;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+#article2{
+    grid-area: article2;
+    background-color: #f4f4f4;
+    padding-left: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+
+#navbar ul{
+    list-style: none;
+
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+aside{
+    grid-area: aside;
+    background-color: pink;
+}
+
+footer{
+    grid-area: footer;
+}
+
